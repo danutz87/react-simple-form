@@ -36,7 +36,7 @@ function FormComponent(props) {
             type="radio"
             name="gender"
             value="male"
-            checked={props.gender === "male"}
+            checked={props.gender === "Male"}
             onChange={props.handleChange}
           />
           Male
@@ -48,7 +48,7 @@ function FormComponent(props) {
             type="radio"
             name="gender"
             value="female"
-            checked={props.gender === "female"}
+            checked={props.gender === "Female"}
             onChange={props.handleChange}
           />
           Female
@@ -63,9 +63,9 @@ function FormComponent(props) {
           value={props.destination}
         >
           <option value="">-- Please Choose a destination --</option>
-          <option value="Thailand">Thailand</option>
-          <option value="Japan">Japan</option>
-          <option value="Brazil">Brazil</option>
+          <option value="England">England</option>
+          <option value="Wales">Wales</option>
+          <option value="Scotland">Scotland</option>
         </select>
         <br />
         <br />
